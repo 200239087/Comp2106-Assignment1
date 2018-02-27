@@ -1,8 +1,24 @@
 <% include shared/header.ejs %>
 
+<style>
+  li:nth-child(3) a:link.nav-link {
+    color: white;
+  }
+  main li a {
+    font-size: 24px;
+  }
+  main li {
+    padding: 1rem;
+  }
+</style>
 <main>
   <h1><%= title %></h1>
-  <p><%= content %></p>
+  <p>I have many a fair number of projects while in college, here are a few projects that I've made that I am proud of:</p>
+  <ul>
+    <li><a href="https://comp2084-assignment-2.azurewebsites.net/" title="Games and Consoles Library">ASP.NET Project: Games and Consoles Library</a><p>I built this application in one of my classes at Georgian College. The application uses Microsoft ASP.NET with Bootstrap frameworks and SQL Database.</p></li>
+    <li><a href="http://gc200239087.computerstudi.es/comp-2081/Assignment2/index.html" title="War Crimes: Novel">CSS Project: War Crimes</a><p>This webpage was built for a CSS class project, none of the links work as the page was simply meant to show off the styles. The webpage utilizes CSS Grid.</p></li>
+    <li><a href="http://gc200239087.computerstudi.es/comp-2081/Project/index.html" title="Automoblox Cars">CSS Project: Automoblox Cars</a><p>Another CSS project utilizing CSS Grid. Displying unique links and minor CSS Animations</p></li>
+  </ul>
 </main>
 
 <% include shared/footer.ejs %>

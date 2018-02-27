@@ -6,8 +6,24 @@
 */
 
 main {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 65%;
+  margin: 4rem auto;
+  text-align: center;
+  font: 18px "Times New Roman", Helvetica, Arial, sans-serif;
 }
 
+footer {
+  text-align: right;
+  padding-right: 1%;
+}
 
+main li {
+  list-style-type: none;
+}
+main a {
+  color: black;
+  text-decoration: underline;
+}
+main a:hover {
+  color: rgb(68, 68, 68);
+}
